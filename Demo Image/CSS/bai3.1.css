@@ -1,0 +1,29 @@
+img {
+	width: 300px;
+}
+
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: red;
+}
+
+a:active {
+	color: green;
+}
+
+img:hover {
+	border-radius: 10px;
+	border: red solid 5px;
+}
+
+img:active {
+	border: black solid 5px;
+}

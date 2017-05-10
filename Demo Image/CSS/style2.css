@@ -1,0 +1,6 @@
+.money::after {
+	content: " vnd";
+}
+.money::before {
+	content: "hoc phi ";
+}

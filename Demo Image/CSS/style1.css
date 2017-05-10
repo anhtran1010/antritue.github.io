@@ -1,0 +1,24 @@
+#container {margin: 0 auto}
+img {
+	border-bottom: 10px solid blue;
+	border-top: dashed 10px green;
+	border-left: 5px blue dotted; 
+	border-right: 15px black double;
+}
+
+a {
+	color: red;
+}
+
+a:visited {
+	color: green;
+}
+a:hover {
+	color: pink;
+}
+
+a:active {
+	color: blue;
+}
+
+img:hover {border-radius: 50%; border: solid 20px red;}

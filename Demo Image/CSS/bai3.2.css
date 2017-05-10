@@ -1,0 +1,24 @@
+img {
+	width: 500px;
+}
+
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: red;
+}
+
+a:active {
+	color: green;
+}
+b::after {
+	content: " VNĐ";
+}
+
