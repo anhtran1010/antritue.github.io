@@ -1,0 +1,48 @@
+a:active {
+	color: red;
+}
+
+a {
+	text-decoration: none;
+	font-size: 40px;
+	color: black;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+.wrap {
+	padding: auto;
+	width: 1200px;
+	margin: auto;
+}	
+.shoes img {
+ 	border-radius: 10px; 
+ 	max-width: 100%;
+ 	width: 33%;
+ }
+
+* {
+	box-sizing: border-box;
+}
+
+.shoes img:hover {
+	border: 3px red solid;
+}
+#banner {
+	width: 100%;
+}
+#banner img {
+	width: 100%;
+}
+ #main-menu a {
+ 	margin-left: 12%;
+ }
+
+.shoes {
+	margin:5px 5px;
+}
+#main-menu {
+	margin-top: 30px;
+}
