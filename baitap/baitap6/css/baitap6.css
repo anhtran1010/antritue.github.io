@@ -1,0 +1,74 @@
+* { 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img {
+	vertical-align: middle;
+}
+body {
+	background-color: #ecba95;
+}
+a:active {
+	color: brown;
+}
+
+a {
+	text-decoration: none;
+	font-size: 40px;
+	color: black;
+	display: block;
+}
+
+h3 {
+	font-size: 28px;
+	margin: 15px;
+}
+
+.wrap {
+	max-width: 100%;
+	position: relative;
+}	
+.shoes img {
+ 	border-radius: 10px; 
+ 	max-width: 100%;
+ 	width: 33%;
+ }
+
+.shoes img:hover {
+	border: 3px red solid;
+}
+
+
+#main-menu {
+	
+	width: 25%;
+	position: absolute;
+	top: 110%;
+	left: 20px;
+	
+}
+
+.shoes {
+	position: absolute;
+	width: 70%;
+	top: 110%;
+	left: 28%;
+	
+}
+
+#icon {
+	height: 92px;
+	width: 100px;
+	background-color: red;
+	position: fixed;
+	bottom: 40px;
+	left: 20px; 
+	margin: auto;
+}
+#banner {
+	width: 100%;
+}
+#banner img {
+	width: 100%;
+}
