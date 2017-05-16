@@ -6,7 +6,7 @@
 	to {right: : 500px;}
 	0% {opacity: 1;}
 	100% {opacity: 0;}
-}
+  }
 p {
 	font-size: 25px;
 	position: absolute;
@@ -14,9 +14,8 @@ p {
 	right: 500px;
 	animation: footer 5s ease infinite
 }
-body {
-	background-color: green;
-}
+
+
 @keyframes header {
 	50% {background-color: pink;}
 }
