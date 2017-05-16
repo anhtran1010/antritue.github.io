@@ -1,0 +1,81 @@
+* { 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img {
+	vertical-align: middle;
+}
+body {
+	background-color: #ecba95;
+}
+a:active {
+	color: red;
+}
+
+a {
+	text-decoration: none;
+	font-size: 40px;
+	color: black;
+}
+
+h3 {
+	font-size: 28px;
+	margin: 15px;
+}
+
+.wrap {
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: white;
+}	
+.shoes img {
+ 	border-radius: 10px; 
+ 	max-width: 100%;
+ 	width: 33%;
+ }
+
+#banner {
+	width: 100%;
+}
+#banner img {
+	width: 100%;
+}
+ #main-menu a {
+ 	margin-left: 12%;
+ }
+
+.shoes {
+	margin:10px 5px;
+}
+#main-menu {
+	margin-top: 30px;
+}
+
+.Nike img {
+	transition: all 0.5s ease;
+}
+.Nike img:hover {
+	transform: translate(0, -10px);
+	box-shadow: 0px 5px 5px 0px black;
+}
+.Adidas {
+	overflow: hidden;
+	transition: all 0.5s ease;
+}
+.Adidas img:hover {
+	transform: scale(1.1);
+	opacity: 0.8;
+}
+
+@keyframes title {
+    0%  {background-color: #EF7126; color: #F9E559;}
+    25%  {background-color: #6F3662; color: #FFFFFF;}
+    50%  {background-color: #9F6164; color: #F8DEBD;}
+    75%  {background-color: #44B3C2; color: #FFFFFF;}
+    100% {background-color: #218C8D; color: #F9E559;}
+}
+
+h3 {
+	animation: title 5s ease infinite;
+}
