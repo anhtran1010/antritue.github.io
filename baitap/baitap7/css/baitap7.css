@@ -1,4 +1,4 @@
-*/ {
+* {
 	box-sizing: border-box;
 }
 @keyframes footer {
@@ -14,7 +14,9 @@ p {
 	right: 500px;
 	animation: footer 5s ease infinite
 }
-
+body {
+	background-color: green;
+}
 @keyframes header {
 	50% {background-color: pink;}
 }
@@ -26,15 +28,22 @@ h1 {
 }
 
 img {
-	width: 600px;
 	display: block;
 	padding: auto;
 	float: left;
 	transition: all 1s ease;
 }
-
+.tren img{
+	width: 50%;
+}
+.duoi img{
+	width: 100%;
+}
 .duoi {
 	position: relative;
+	width: 50%;
+	float: left;
+	overflow: hidden;
 }
 .wrap {
 	max-width: 1200px;
@@ -46,7 +55,7 @@ img {
 	box-shadow: 0 5px 5px 0;
 	border-radius: 20px;
 }
-.duoi img:hover {
+.duoi:hover img{
 	transform: scale(1.1);
 	opacity: 0.7;
 }
