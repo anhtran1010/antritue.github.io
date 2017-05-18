@@ -1,0 +1,93 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: pink;
+	margin: 0;
+	padding-bottom: 100px;
+}
+.wrap {
+	width: 1200px;
+	margin: auto;
+}
+.banner img{
+	width: 100%;
+}
+.km img{
+	display: block;
+	margin: auto;
+	width: 49%;
+	float: left;
+	margin: 0.5%;
+}
+
+.qc img{
+	display: block;
+	margin: auto;
+	width: 32.3%;
+	padding: auto;
+	margin: 0.5%;
+	float: left;
+}
+h1 {
+	font-size: 55px;
+	color: #e53328;
+	font-family: Arial,Heveltica,sans-serif;
+}
+h2 {
+	font-size: 35px;
+	font-family: Arial,Heveltica,sans-serif;
+}
+h3 {
+	font-size: 25px;
+	font-family: Arial,Heveltica,sans-serif;
+}
+p {
+	font-size: 20px;
+	font-family: Arial,Heveltica,sans-serif;
+}
+.bottom img{
+	padding-bottom: 100px;
+}
+#home ul{
+	list-style: none;
+	background:brown;
+	width: 100%;
+	display: table;
+	padding: 0;
+}
+ 
+#home ul li{
+	float:left;
+	position:relative;
+
+}
+ 
+#home ul a{
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	font-weight:bold;
+	padding:10px 30.95px;
+	font-size: 30px;
+}
+ 
+#home ul a:hover{
+background:#510505;
+}
+ 
+
+#home li ul a{
+	background: brown;
+	width:160px;
+}
+ 
+#home li ul{
+	position:absolute;
+	display:none;
+	width:160px;
+}
+ 
+#home li:hover ul{
+	display:block;
+}

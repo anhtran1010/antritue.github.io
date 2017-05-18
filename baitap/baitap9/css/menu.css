@@ -1,0 +1,114 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: pink;
+	margin: 0;
+	padding-bottom: 100px;
+}
+a:active {
+	color: brown;
+} 
+a:hover {
+	color: brown;
+}
+a {
+	text-decoration: none;
+	color: #56240c;
+}
+h3,h1 {
+	text-align: center;
+}
+h1 {
+	padding-top: 50px;
+	color: #56240c;
+}
+.wrap {
+	width: 1200px;
+	margin: auto;
+}
+
+.banner img{
+	width: 100%;
+}
+.starters {
+	float: left;
+	width: 23%;
+	margin: 1%;
+}	
+.starters img{
+	width: 100%;
+}
+.pizza {
+	float: left;
+	width: 23%;
+	margin: 1%;
+}	
+.pizza img{
+	width: 100%;
+}
+.salad {
+	float: left;
+	width: 23%;
+	margin: 1%;
+}	
+.salad img{
+	width: 100%;
+}
+.drinks {
+	float: left;
+	width: 23%;
+	margin: 1%;
+}	
+.drinks img{
+	width: 100%;
+}
+.steak {
+	float: left;
+	width: 23%;
+	margin: 1%;
+}	
+.steak img{
+	width: 100%;
+}
+.ribs {
+	float: left;
+	width: 23%;
+	margin: 1%;
+}	
+.ribs img{
+	width: 100%;
+}.burger {
+	float: left;
+	width: 23%;
+	margin: 1%;
+}	
+.burger img{
+	width: 100%;
+}
+#menu ul{
+	list-style: none;
+	background:brown;
+	width: 100%;
+	display: table;
+	padding: 0;
+}
+ 
+#menu ul li{
+	float: left;
+	
+}
+ 
+#menu ul a{
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	font-weight:bold;
+	padding:10px 28.7px;
+	font-size: 30px;
+}
+ 
+#menu ul a:hover{
+	background:#510505;
+}

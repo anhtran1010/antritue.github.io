@@ -6,7 +6,6 @@
 	text-transform: uppercase;
 	color: white;
 	animation: title 10s ease infinite;
-	width: 1600px;
 }
 
 @keyframes title {
