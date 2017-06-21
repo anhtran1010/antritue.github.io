@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+    	<h1>Demo DOM event</h1>
+
+    	x = <input type="text" id="x"/> <br/>
+
+    	y = <input type="text" id="y"/> <br/>
+
+    	<button onclick="sum()">+</button>
+
+    	<p>x + y = <b id="result"></b></p>
+
+
+ 		<script src="../js/demojs.js"></script>
+ 		<script>
+ 			function sum(){
+				var x = document.getElementById("x").value;
+				var y = document.getElementById("y").value;
+				document.getElementById("result").innerText = Number(x)+Number(y);
+			}
+ 		</script>
+    </body>
+</html>
