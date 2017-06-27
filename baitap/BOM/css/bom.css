@@ -1,0 +1,43 @@
+#wrap {
+	width: 1000px;
+	margin: auto;
+	
+	margin-top: 50px;
+}
+#content{
+	width: 600px;
+	margin-left: 200px;
+}
+h1 {
+	text-align: center;
+	color: brown;
+}
+
+p {
+	text-align: left;
+	font-size: 35px;
+	margin-top: 50px;
+
+}
+
+button {
+	width: 600px;
+	text-align: left;
+	font-size: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	margin-bottom: 10px;
+	background-color: 567EBB;
+	color: FFFFFD;
+	outline: none;
+
+}
+button:hover {
+	background-color: 2B4C7E;
+}
+
+body {
+	background-color: FFFDC0;
+
+}
