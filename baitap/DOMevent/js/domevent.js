@@ -13,17 +13,17 @@ function erase(){
 
 function percent(){
 	var x = document.getElementById("answer");
-	x.innerText = x.innerText*100 + "%";
+	x.innerText = x.innerText/100;
 }
 
 function square(){
 	var x = document.getElementById("answer");
-	x.innerText = x.innerText*x.innerText;
+	x.innerText = Math.pow(x.innerText,2);
 }
 function factorial(){
 	var x = document.getElementById("answer");
 	var value=1;
-	for (var i = 1; i < Number(x.innerText); i++) {
+	for (var i = 1; i <= Number(x.innerText); i++) {
 		value*=i;
 	}
 	x.innerText=value;
