@@ -30,10 +30,6 @@ $(function() {
 	$('.grid').html(html);
 })
 
-
-// $('.front').click(function(){
-// $('.cards').addClass("flip");
-// })
 function flip(cards) {
 	$(cards).css('pointer-events', 'none');
 	$(cards).toggleClass("flip");
