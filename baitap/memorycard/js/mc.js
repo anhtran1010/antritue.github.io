@@ -33,26 +33,6 @@ $(function() {
 function flip(cards) {
 	$(cards).css('pointer-events', 'none');
 	$(cards).toggleClass("flip");
-	if (!current){
-		current=$('.cards');
-	} else {
-		if (current.atrr("data-name") != $(cards).atrr("data-name")){
-			//Khac nhau
-			setTimeout(function(){
-				current.toggleClass('flipped');
-				$(cards).toggleClass('flipped');
-				current = null;
-			},500);
-			
-		} else {
-			//Giong nhau
-			setTimeout(function(){
-				$(cards).css('opacity','0');
-				current.css('opacity','0');
-				current = null;
-			},200);
-			
-		}
-	}
+	
 }
 
