@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url("../img/bg1.jpg") no-repeat;
+	background-size: cover;
+	background-position: center center;
+	
+}
+.grid {
+	width: 1255px;
+	margin: auto;
+	padding-top: 200px;
+}
+
+
+.cards {
+	float: left;
+	position: relative;
+	transform-style: preserve-3d;
+}
+
+.cards .back {
+	transform: rotateY(180deg);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.flip .back {
+	transform: rotateY(0deg);
+	
+}
+
+.flip .front {
+	transform: rotateY(180deg);
+}
+
+.cards .front, .cards .back {
+	transition: all 0.5s;
+	backface-visibility: hidden;
+}
+
+img {
+	height: 350px;
+	width: 250px;
+	transition: all 0.3s ease-in-out;
+}
+ img:hover {
+ 	transform: translate(0, -10px);
+
+ }
+
