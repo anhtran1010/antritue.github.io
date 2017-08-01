@@ -31,8 +31,7 @@ $(function() {
 })
 
 function flip(cards) {
-	$(cards).css('pointer-events', 'none');
 	$(cards).toggleClass("flip");
-	
+	$(cards).css('pointer-events', 'none');
 }
 
