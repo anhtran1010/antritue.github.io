@@ -11,9 +11,9 @@ body {
 	
 }
 .grid {
-	width: 1255px;
+	width: 1900px;
 	margin: auto;
-	padding-top: 200px;
+	padding-top: 120px;
 }
 
 
@@ -45,8 +45,8 @@ body {
 }
 
 img {
-	height: 350px;
-	width: 250px;
+	height: 300px;
+	width: 210px;
 	transition: all 0.3s ease-in-out;
 }
  img:hover {
