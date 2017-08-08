@@ -1,6 +1,7 @@
 var cards = ["anh1.png","anh2.png","anh3.png","anh4.png","anh5.png","anh6.png","anh7.png","anh8.png","anh9.png"]
 var current = null;
 var count = 0;
+var remainingTime = 42;
 
 function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
@@ -28,7 +29,30 @@ $(function(){
         html+='<div class="cards" data-name="card'+cards[i]+'" onclick="flip(this)"><div class="back"><img src="../img/'+cards[i]+'"/></div><div class="front"><img src="../img/back.png"/></div></div>';
     };
     $('.grid').html(html);
+    $(cards).css('pointer-events','none');
 })
+
+function start() {
+    var elem = document.getElementById('bar');
+    var width = 100;
+    var run = setInterval(frame, 1000);
+    $('#start-box').css('opacity', '0');
+    $('#progress').css('opacity', '1');
+    $('#cover').css('display','none');
+    
+    function frame() {
+        if (width<=0 && remainingTime<=0){
+            clearInterval(run);
+            $('.lose img').css('top','0');
+            $('#cover').css('display','');
+        } else {
+            width=width-(100/42);
+            remainingTime--;
+            elem.style.width = width + '%';
+            console.log(remainingTime);
+        }
+    }
+}
 
 function flip(cards) {
     $(cards).toggleClass("flip");
@@ -48,17 +72,14 @@ function flip(cards) {
             $(cards).css('opacity', '0');
             current.css('opacity', '0');
             count++;
-            if (count == 9) alert("you won")
+            if (count == 9) {
+                $('.win img').css('top','0');
+                clearInterval(run);
+            }
             document.getElementById('correct').play();
         }
         current=null;
         $('.cards').css('pointer-events', 'auto');// xu li xong bam tiep
-        },500)
+        },700)
     }
 }
-
-
-   
-
-
-
