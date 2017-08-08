@@ -76,11 +76,11 @@ img:hover {
 	padding:3px;
 	opacity: 0;
 	position: absolute;
-	top: 20px;
+	top: 50px;
 	left: 0
 }
 #bar {
-	background-color:#dd6013;
+	background-color:green;
 	width:100%;
 	height:15px;
 	border-radius:4px;
@@ -103,6 +103,7 @@ img:hover {
 	top: -1000px;
 	left: 0;
 	z-index: 5;
+	pointer-events: none;
 }
 .lose img{
 	width: 600px;
@@ -112,4 +113,5 @@ img:hover {
 	top: -1000px;
 	left: 0;
 	z-index: 5;
+	pointer-events: none;
 }
