@@ -84,6 +84,7 @@ img:hover {
 	width:100%;
 	height:15px;
 	border-radius:4px;
+	transition: 1s linear;
 }
 
 #cover {
